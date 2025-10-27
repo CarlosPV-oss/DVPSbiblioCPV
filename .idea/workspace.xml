@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ecbff90-a182-4e72-8103-567cac525c37" name="Changes" comment="instalacionSqlfinalizada">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/entity/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
