@@ -14,6 +14,7 @@ public class LibroController {
     @Autowired
     private LibroServiceImpl libroServiceImpl; //Se inyecta la dependencia
 
+
     @GetMapping
     public List<Libro> obtenerTodos(){
         return this.libroServiceImpl.getLibros();

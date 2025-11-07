@@ -1,4 +1,4 @@
-package com.example.demo.controler;
+package com.example.demo;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
