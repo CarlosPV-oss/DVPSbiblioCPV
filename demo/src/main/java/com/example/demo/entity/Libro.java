@@ -13,10 +13,13 @@ import lombok.NoArgsConstructor;
 public class Libro {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //se generara de forma automatica
+    @GeneratedValue(strategy = GenerationType.AUTO) //se generara de forma automatica
+    //auto para autoincrementar
+
     private long id;
-    @Column(nullable = false) //Al ponerlo a posterior, hay que modificar la propiedad
+    @Column(nullable = false,columnDefinition = "") //Al ponerlo a posterior, hay que modificar la propiedad
     private String titulo;
+
 
     @Column
     private String autor;
