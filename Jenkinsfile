@@ -16,8 +16,8 @@ pipeline{
 
     stage('check out proyecto'){
         steps{
-            git branch: 'master',
-                url:''
+            git branch: 'main',
+                url:'https://github.com/CarlosPV-oss/DVPSbiblioCPV.git'
         }
     }
     }
