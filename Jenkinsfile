@@ -9,8 +9,8 @@ pipeline{
     stages {
         stage('Show messages'){
         steps {
-                echo "Primer stage del pipeline"
-                echo "A continuacion hacemos checkout del proyecto"
+                bat 'Primer stage del pipeline'
+                bat 'A continuacion hacemos checkout del proyecto'
             }
           }
 
@@ -18,6 +18,12 @@ pipeline{
         steps{
             git branch: 'main',
                 url:'https://github.com/CarlosPV-oss/DVPSbiblioCPV.git'
+        }
+    }
+
+    stage('Maven clean'){
+        steps{
+            bat 'mvn clean'
         }
     }
     }
